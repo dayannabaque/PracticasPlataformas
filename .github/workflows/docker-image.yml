@@ -41,4 +41,4 @@ jobs:
         NEW_VERSION: ${{ steps.version.outputs.version }}
       run: |
         docker push dayannabaque/practicagit:$NEW_VERSION
-        docker push dayannabaque/practicagit1:latest
+        docker push dayannabaque/practicagit:latest
